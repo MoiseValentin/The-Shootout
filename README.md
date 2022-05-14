@@ -3,8 +3,8 @@
 # The-Shootout
 OOP C++ Simulation of a shooter game
 
-The area size, number of agents and their position are defined in the .txt parameter file.
-Upon starting the game each agent receives a random gun and has a chance to receive armor.
+The area size, number of agents and their position are defined in the parameter file. 
+Upon starting the game each agent receives a random gun and has a chance to receive armor. The starting HP is 100 and each agent can move 4 units/round. 
 
 Gun types:
 - Pistol (dmg: 70, range: 6, accuracy: 80%)
