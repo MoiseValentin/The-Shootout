@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="The Shootout" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/The Shootout" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/The Shootout" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="fisier.txt" />
+		<Unit filename="include/Agent.h" />
+		<Unit filename="include/Agent_normal.h" />
+		<Unit filename="include/Arma.h" />
+		<Unit filename="include/Armura.h" />
+		<Unit filename="include/Game_engine.h" />
+		<Unit filename="include/Mitraliera.h" />
+		<Unit filename="include/Pistol.h" />
+		<Unit filename="include/Shotgun.h" />
+		<Unit filename="include/World.h" />
+		<Unit filename="include/heavy_armor.h" />
+		<Unit filename="include/light_armor.h" />
+		<Unit filename="include/tactical_armor.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Agent.cpp" />
+		<Unit filename="src/Agent_normal.cpp" />
+		<Unit filename="src/Arma.cpp" />
+		<Unit filename="src/Armura.cpp" />
+		<Unit filename="src/Game_engine.cpp" />
+		<Unit filename="src/Mitraliera.cpp" />
+		<Unit filename="src/Pistol.cpp" />
+		<Unit filename="src/Shotgun.cpp" />
+		<Unit filename="src/World.cpp" />
+		<Unit filename="src/heavy_armor.cpp" />
+		<Unit filename="src/light_armor.cpp" />
+		<Unit filename="src/tactical_armor.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
